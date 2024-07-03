@@ -13,7 +13,7 @@ const StopWatch: React.FC = () => {
     if (isActive && !isPaused) {
       interval = setInterval(() => {
         setTime((prevTime) => prevTime + 1);
-      },9);
+      },8);
     } else {
       if (interval) clearInterval(interval);
     }
